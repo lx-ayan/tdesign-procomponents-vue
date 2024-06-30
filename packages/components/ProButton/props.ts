@@ -1,4 +1,4 @@
-import { definePropType } from '@tdesign-vue-procomponents/utils/props';
+import { definePropType } from '@procomponent-tdesign-vue/utils/props';
 import { ThemeEnum, SizeEnum, ShapeEnum, TdPopupProps, TdButtonProps } from 'tdesign-vue-next';
 import { PropType, ExtractPropTypes, VNode } from 'vue';
 

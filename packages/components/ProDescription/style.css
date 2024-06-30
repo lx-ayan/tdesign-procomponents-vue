@@ -1,0 +1,13 @@
+.pro-description-edit {
+    margin-left: 12px;
+}
+
+.pro-description-content {
+    display: flex;
+    align-items: center;
+}
+
+.pro-description {
+    width: 100%;
+    height: 100%;
+}

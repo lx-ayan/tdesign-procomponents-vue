@@ -19,7 +19,7 @@ onMounted(() => {
 
 const innerValue = ref(props.modelValue || '');
 
-watch(() => props.modelValue, (val, oldVal) => {
+watch(() => props.modelValue, (val) => {
     innerValue.value = val;
 })
 
@@ -72,9 +72,6 @@ function handlewheel(e: any) {
     emits('wheel', e)
 }
 
-function reset() {
-    innerValue.value = '';
-}
 
 </script>
 

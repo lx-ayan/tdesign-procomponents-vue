@@ -1,4 +1,4 @@
-import { definePropType } from "@tdesign-vue-procomponents/utils/props";
+import { definePropType } from "@procomponent-tdesign-vue/utils/props";
 import { FormRule, TdFormItemProps, TdInputProps } from "tdesign-vue-next";
 import { ExtractPropTypes } from "vue";
 

@@ -1,21 +1,24 @@
 {
-  "name": "tdesign-vue-procomponents",
+  "name": "procomponent-tdesign-vue",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx pnpm --filter @tdesign-vue-procomponents/play dev"
+    "dev": "npx pnpm --filter @procomponent-tdesign-vue/play dev",
+    "build-es": "npx pnpm --filter procomponent-tdesign-vue build-es",
+    "build-umd": "npx pnpm --filter procomponent-tdesign-vue build-umd"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@procomponent-tdesign-vue/play": "workspace:*",
+    "@procomponent-tdesign-vue/utils": "workspace:*",
+    "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vitejs/plugin-vue-jsx": "^4.0.0",
     "tdesign-vue-next": "^1.9.7",
-    "tdesign-vue-procomponents": "workspace:*",
-    "@tdesign-vue-procomponents/utils": "workspace:*",
-    "@tdesign-vue-procomponents/play": "workspace:*",
+    "procomponent-tdesign-vue": "workspace:*",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
     "vue": "^3.4.29"

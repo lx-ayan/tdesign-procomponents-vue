@@ -1,5 +1,5 @@
 import ProButton from './index.vue';
-import { withInstall } from '@tdesign-vue-procomponents/utils/install';
+import { withInstall } from '@procomponent-tdesign-vue/utils/install';
 
 export const _ProButton = withInstall(ProButton);
 

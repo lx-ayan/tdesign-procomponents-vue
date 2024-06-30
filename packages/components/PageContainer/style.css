@@ -1,0 +1,33 @@
+.page-container {
+    padding: 0px 8px;
+}
+
+.page-container-bread {
+    margin-bottom: 8px;
+}
+
+.page-container-title {
+    font-weight: bold;
+    margin: 0px 12px 0px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-container-content {
+    padding-top: 12px;
+}
+
+.page-container-tabs {
+    padding-top: 8px;
+}
+
+.page-container-footer {
+    margin-top: 36px;
+}

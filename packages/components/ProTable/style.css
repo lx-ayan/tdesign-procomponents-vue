@@ -1,0 +1,9 @@
+.pro-table {
+    height: 100%;
+    overflow: auto;
+}
+
+.pro-table-form {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}

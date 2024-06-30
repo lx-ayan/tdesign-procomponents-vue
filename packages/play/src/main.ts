@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import TDesign from 'tdesign-vue-next';
-import 'tdesign-vue-next/'
-import ProComponent from 'tdesign-vue-procomponents';
+import ProComponent from 'procomponent-tdesign-vue';
+import 'procomponent-tdesign-vue/lib/es/style/index.css';
 
 createApp(App).use(TDesign).use(ProComponent).mount('#app')
