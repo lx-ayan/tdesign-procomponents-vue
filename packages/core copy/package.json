@@ -1,13 +1,21 @@
 {
   "name": "procomponent-tdesign-vue",
-  "version": "1.2.39",
+  "version": "1.2.30",
   "description": "procomponent-tdesign-vue",
   "main": "umd/index.umd.cjs",
-  "module": "lib/es/index.js",
-  "types": "lib/types/core/index.d.ts",
+  "module": "es/index.js",
+  "typings": "types/core/index.d.ts",
+  "types": "types/core/index.d.ts",
   "type": "module",
-  "files": ["lib"],
-  "sideEffects": ["./lib/es/style/index.css"],
+  "files": ["es", "umd", "types"],
+  "exports": {
+    ".": {
+      "import": "./es/index.js",
+      "require": "./umd/index.umd.cjs",
+      "types": "./types/core/index.d.ts"
+    }
+  },
+  "sideEffects": ["./es/style/index.css"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-umd": "vite build --config vite.umd.config.ts",
@@ -20,7 +28,7 @@
     "vite-plugin-dts": "^3.9.1"
   },
   "peerDependencies": {
-    "vue": ">=3.2.0",
-    "tdesign-vue-next": ">=1.9.0"
+    "vue": "^3.4.29",
+    "tdesign-vue-next": "^1.9.7"
   }
 }

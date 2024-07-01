@@ -1,5 +1,3 @@
-export type { ProTable } from './props';
-
 export interface ProTableResult<T> {
     list: T[];
     total: number;

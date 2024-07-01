@@ -12,10 +12,10 @@ function getComponents(basePath: string) {
 export default defineConfig({
     plugins: [Vue(), DTS({
         tsconfigPath: '../../tsconfig.build.json',
-        outDir: 'lib/types'
+        outDir: 'types'
     })],
     build: {
-        outDir: 'lib/es',
+        outDir: 'es',
         lib: {
             entry: resolve(__dirname, './index.ts'),
             name: 'procomponent-tdesign-vue',
